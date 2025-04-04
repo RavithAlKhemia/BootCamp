@@ -16,9 +16,11 @@ touch
 # Crear archivos (usar su extensión)
 man "COMANDO"
 # Trae documentación de comandos
-Git add .
+git add .
 # guardar cambios
-Git status
+git status
 # reporta modificaciones
-Git commit -m "MENSAJE"
+git commit -m "MENSAJE"
 # agrega un commit a lo modificado.
+git push
+# Envía a Repositorio.
