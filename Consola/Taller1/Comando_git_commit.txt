@@ -1,0 +1,12 @@
+flags:
+--date=<date>
+Permite sobrescribir la fecha de autor de un commit. 
+Esto significa que puedes especificar una fecha diferente a la que Git asignaría por defecto, 
+que generalmente es la fecha y hora actuales en el momento de hacer el commit.
+
+-m <msg>, --message=<msg>
+Agrega un mensaje en <msg>. Usar varios -m, agrega todo concatenando la información y separandola por parrafos.
+
+-a, --all
+Automáticamente prepara (stages) los archivos que han sido modificados o eliminados, 
+no necesitas ejecutar git add antes de hacer el commit.
